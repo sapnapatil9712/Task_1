@@ -10,6 +10,7 @@ public class CountryList {
         countries.add("Germany");
         countries.add("France");
         countries.add("Japan");
+        countries.add("CapeTown");
 
         // Using Enumeration to print all country names
         System.out.println("List of Countries:");
