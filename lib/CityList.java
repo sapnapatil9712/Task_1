@@ -10,6 +10,7 @@ public class CityList {
         cities.add("Chicago");
         cities.add("Houston");
         cities.add("Miami");
+        cities.add("India");
 
         // Using ListIterator to traverse forward and print all cities
         System.out.println("Cities in forward order:");
