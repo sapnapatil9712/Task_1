@@ -49,10 +49,10 @@ public class StudentSorter {
         students.add(new Student("David", "White", 23, 5.8));
         students.add(new Student("Eve", "Williams", 19, 5.5));
         students.add(new Student("Joy", "berk", 25, 5.3));
-        students.add(new Student("Robert", "Hook", 29, 5.2));
-        students.add(new Student("Ana", "Brown", 26, 5.1));
-        students.add(new Student("Alias", "Einstein", 24, 5.3));
-        students.add(new Student("Albert", "Einstein", 18, 5.8));
+        students.add(new Student("Robert", "Hook", 29, 5.));
+        students.add(new Student("Ana", "Brown", 26, 5.6));
+        students.add(new Student("Alias", "Einstein", 24, 5.6));
+        students.add(new Student("Albert", "Einstein", 18, 5.6));
 
         // Sorting by natural order (age)
         Collections.sort(students);
