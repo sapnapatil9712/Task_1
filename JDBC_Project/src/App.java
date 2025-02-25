@@ -12,9 +12,10 @@ public class App {
         System.out.println("JDBC Connected Successfully");
 
         // String sql = "create table users(id int primary key auto_increment,name varchar(100),email varchar(100))";
-        String sql = "INSERT INTO users(name,email) VALUES ('sapna patil',sapna@gmail.com)";
+        String sql = "INSERT INTO users(name,email) VALUES ('sapna','patil@gmail.com')";
 
         Statement stmt = conn.createStatement();
         stmt.executeUpdate(sql);
     }
+    
 }
