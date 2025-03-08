@@ -49,7 +49,7 @@ public void withdraw(double amount) {
 
 public class Main {
     public static void main(String[] args) {
-    BankAccount account1 = new BankAccount("123456789", "Surabhi", 10987.00);
+    BankAccount account1 = new BankAccount("123456789", "Sapna", 10987.00);
 
 
     System.out.println("Account Number: " + account1.getAccountNumber());
